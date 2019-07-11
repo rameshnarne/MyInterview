@@ -10,7 +10,7 @@ public class ParenthesisChecker {
         if(s.length()%2 != 0) return false;
 
         Stack<Character> stack = new Stack();
-        Map<Character,Character> mp = new HashMap<>() {
+        Map<Character,Character> mp = new HashMap() {
             {
                 put('(',')');
                 put('[',']');
