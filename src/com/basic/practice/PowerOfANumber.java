@@ -1,3 +1,5 @@
+package com.basic.practice;
+
 public class PowerOfANumber {
     int findPower(int num, int pow){
         if (pow == 0)

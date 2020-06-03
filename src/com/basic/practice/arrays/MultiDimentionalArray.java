@@ -1,4 +1,4 @@
-package arrays;
+package com.basic.practice.arrays;
 
 public class MultiDimentionalArray {
 

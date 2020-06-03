@@ -1,4 +1,4 @@
-package strings;
+package com.basic.practice.strings;
 
 public class ReverseWords {
 
@@ -13,8 +13,14 @@ public class ReverseWords {
         return String.join(" ", arr);
     }
 
+    public String reverseWordsRecursively(String input){
+        if (input == null ) return input;
+        int index = input.indexOf(" ");
+        return index < 0 ? input : reverseWordsRecursively(input.substring(index+1)) +" "+ input.substring(0, index);
+    }
+
     public static void main(String a[]){
         ReverseWords reverseWords = new ReverseWords();
-        System.out.println(reverseWords.reverseWords("I love you Cherry"));
+        System.out.println(reverseWords.reverseWordsRecursively("I love you Cherry"));
     }
 }

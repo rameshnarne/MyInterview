@@ -1,3 +1,5 @@
+package com.basic.practice;
+
 import java.util.Arrays;
 
 public class ReverseArrayExample {

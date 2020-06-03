@@ -1,3 +1,5 @@
+package com.basic.practice;
+
 import java.util.Arrays;
 
 public class QuickSortDemo{
@@ -13,7 +15,7 @@ public class QuickSortDemo{
     }
 }
 
-/** * Java Program sort numbers using QuickSort Algorithm. QuickSort is a divide
+/** * Java Program sort numbers using com.basic.practice.QuickSort Algorithm. com.basic.practice.QuickSort is a divide
  * and conquer algorithm, which divides the original list, sort it and then
  * * merge it to create sorted output. */
 
@@ -36,7 +38,7 @@ class QuickSort {
         int j = high;
         // pivot is middle index
         int pivot = input[low + (high - low) / 2];
-        // Divide into two arrays
+        // Divide into two com.basic.practice.arrays
         while (i <= j) {
             /** * As shown in above image, In each iteration, we will identify a
              * * number from left side which is greater then the pivot value, and

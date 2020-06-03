@@ -1,3 +1,5 @@
+package com.basic.practice;
+
 public class PerfectSquare {
 
     static boolean isPerfectSquare(double x)

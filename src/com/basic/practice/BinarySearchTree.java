@@ -1,3 +1,5 @@
+package com.basic.practice;
+
 public class BinarySearchTree {
 
     class Node {

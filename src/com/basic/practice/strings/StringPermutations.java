@@ -1,4 +1,4 @@
-package strings;
+package com.basic.practice.strings;
 
 public class StringPermutations {
 

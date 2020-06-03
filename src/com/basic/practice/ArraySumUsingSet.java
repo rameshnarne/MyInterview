@@ -1,10 +1,12 @@
+package com.basic.practice;
+
 import java.util.HashSet;
 import java.util.Set;
 
 public class ArraySumUsingSet {
 
     public static void main(String a[]){
-        printPairsUsingSet(new int[]{8, 0, 14, 0, 0, 4, 7, 3, 5, 7}, 8);
+        printPairsUsingSet(new int[]{8, 0, 14, 0, 0, 4, 7, 3, 5, 7}, 0);
     }
 
     public static void printPairsUsingSet(int[] numbers, int n){

@@ -1,3 +1,5 @@
+package com.basic.practice;
+
 public class DefaultTest implements DefaultOne, DefaultTwo {
 
     public void print(){

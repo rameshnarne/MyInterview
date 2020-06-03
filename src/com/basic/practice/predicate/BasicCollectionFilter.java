@@ -1,4 +1,4 @@
-package predicate;
+package com.basic.practice.predicate;
 
 import java.util.ArrayList;
 import java.util.List;

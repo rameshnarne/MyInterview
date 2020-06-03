@@ -1,3 +1,5 @@
+package com.basic.practice;
+
 public class PowerOfTwo {
 
     /* Method to check if x is power of 2*/
